@@ -508,6 +508,8 @@ header .right-section button{
 
   padding: 1em 1.5em;
 
+  font-size: 1.5rem;
+
   border: none;
   border-radius: 72px;
 
@@ -800,6 +802,10 @@ footer p:last-child{
 }
 
 @media (max-width: 600px){
+  img{
+    max-width: 75%;
+  }
+
   header .container,
   header .container .middle-section .navbar-list ul,
   header .container .right-section,
@@ -877,5 +883,11 @@ footer p:last-child{
   .f-mid-left-section,
   .f-mid-right-section{
     margin-top: 5em;
+  }
+}
+
+@media (max-width: 400px){
+  html{
+    font-size: 30%;   
   }
 }
