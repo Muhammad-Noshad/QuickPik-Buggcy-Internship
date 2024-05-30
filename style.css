@@ -55,12 +55,8 @@ header *{
 }
 
 header .container{
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-}
-
-.drop-down-section, .drop-down-section *{
-  border: 1px red solid;
 }
 
 .drop-down-btn{
@@ -191,7 +187,7 @@ header .right-section button{
   border-radius: 0 45px 45px 0;
   
   height: 100%;
-  width: 10%;
+  width: 8%;
 
   position: absolute;
   right: 0;
@@ -209,9 +205,9 @@ header .right-section button{
 .discount{
   background-color: var(--light-green);
 
-  max-width: 70%;
+  max-width: 80%;
   
-  padding: 1.1em 0;
+  padding: 0.8em 0;
   padding-left: 1em;
   
   border-radius: 30px;
@@ -297,7 +293,7 @@ header .right-section button{
 
   padding: 2em 2.5em;
 
-  box-shadow: 2px 1px 50px 1px;
+  box-shadow: 2px 1px 50px rgb(0, 0, 0, 0.2);
   transform: translate(5em,-8em);
 }
 
@@ -606,11 +602,11 @@ header .right-section button{
   display: flex;
   flex-direction: column;
   background-color: var(--white);
-  padding: 2em;
-  width: 33%;
+  padding: 3em;
+  width: 30%;
   height: fit-content;
   gap: 2em;
-  box-shadow: 2px 1px 10px 0.1px;
+  box-shadow: 2px 1px 10px rgb(0, 0, 0, 0.2);
   border-radius: 12px;
 }
 
